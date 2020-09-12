@@ -2,8 +2,7 @@
 
 <div align="center">
   
-![alt text](https://github.com/SicklyWizard/Test-Repot/blob/master/4.png
-)
+![RetroGon](https://github.com/SicklyWizard/Test-Repot/blob/master/resources/Images/4.png)
 
 
 
