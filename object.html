@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrogon test repo</title>
+</head>
+
+<!-- This page will pull from the database, loading the objects information: name, upload description, type, genre, etc. as well as statistics: Downloads, likes/dislikes, date uploaded-->
+
+<body>
+    <nav>
+        <div class="pageHead">
+            <!-- This portion is the topbar of the page. at somepoint this will be a PHP file that will be inherieted by other pages-->
+            <h2><a href="index.html"><img src="resources\Images\4.png" alt="Logo"></a>
+            <h1>RetroGon</h1>
+    
+            <Form>
+            <label for="userName">Username: </label>
+            <input type="text" id="userName" name="userName"><br>
+            <label for="pass">Password: </label> 
+            <input type="password" id="userPass" name="userPass"><br>
+            <input type="submit" value="Submit">
+            </Form>
+    
+            <h2><a href="index.html">Explore</a></h2>
+            <h2><a href="index.html">About Us</a></h2>
+            <h2><a href="index.html">Upload</a></h2>
+            <h2><a href="index.html">Register</a></h2>
+        </div>
+    </nav>
+<br>
+
+<section>
+    <div class="objPreview">
+        <!-- Im imagining having our three.js preview going here for the uploaded object, it will be stored with a photo thumbnails or a video Demo --> 
+        <h1>Object</h1>
+        <img src="resources\Images\Cherry Tree.png" alt="preview"> 
+    </div>
+    <div class="objData">
+        <table id="objStats">
+            <tr>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <td class="dataLabel">Object Name:</td>
+              <td class="objData">Tree</td>
+            </tr>
+            <tr>
+              <td class="dataLabel">Uploader:</td>
+              <td class="objData">Username</td>
+            </tr>
+          </table>
+    </div>
+</section>
+
+<div>
+    <h2>Download</h2>
+    <button class="download">Download</button>
+</div>
+
+</body>
+</html>
